@@ -3,5 +3,6 @@ from .views import index
 
 urlpatterns = [
     path('', index),
-    # 这里是主路由
+    path('join', index),
+    path('create', index),
 ]
